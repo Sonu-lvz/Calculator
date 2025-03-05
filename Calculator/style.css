@@ -1,0 +1,67 @@
+.textview {
+    display: inline-block;
+    margin: 2px;
+    width: 198px;
+    height: 29px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: light beige; 
+    border: none;
+}
+
+.equalButton, .button, .allclearButton {
+    cursor: pointer;
+    display: inline-block;
+    margin: 2px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    outline: none;
+}
+
+.equalButton {
+    width: 42px;
+    height: 91px;
+}
+
+.button {
+    width: 42px;
+    height: 42px;
+}
+
+.button:active, .equalButton:active, .allclearButton:active {
+    background-color: medium sea green; 
+    box-shadow: 0 3px #666;
+    transform: translateY(4px);
+}
+
+.button:hover, .equalButton:hover {
+    background-color: light orange;
+    box-shadow: 0px 0px 2px light orange, inset 0px -20px 1px dark orange; 
+    border: 2px solid burnt orange; 
+}
+
+.allclearButton {
+    width: 42px;
+    height: 42px;
+    color: white; 
+    text-shadow: -1px -1px 0px dark violet; 
+    background-color: red; 
+    border: 2px solid light coral;
+    box-shadow: 0px 0px 2px black, inset 0px -20px 1px dark red; 
+}
+
+h1 {
+    color: dark orange; 
+    font-size: 52px;
+    text-align: center;
+}
+
+.container {
+    background: light gray; 
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
